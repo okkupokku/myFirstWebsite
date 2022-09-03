@@ -2,6 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin: -1px;
+}
+.header, .first, .second, .third, .fourth, .footer {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header, .first {
@@ -29,6 +36,11 @@ a {
 .first {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+}
+.bigimg {
+    width: 500px;
+    height: auto;
 }
 .first-content {
     display: flex;
@@ -41,28 +53,38 @@ button {
 }
 .second {
     text-align: center;
+    font-size: 10px;
 }
 
 .second-content {
     display: flex;
 
+
 }
+.imgtext {
+    margin: 15px;
+}
+
 .framed {
     border: #3882F6;
     border-radius: 8px;
-    border-width: 3px;
+    border-width: 2px;
     border-style: groove;
     padding: 10px;
+    margin: 15px;
+    flex: 0;
+
 }
 
 .third {
     background-color: #E5E7EB;
+    padding-left: 150px;
     
 }
 .quote {
     font-style: italic;
     font-weight: 100;
-    font-size: 24px;
+    font-size: 18px;
     color: #1F2937;
 }
 .author {
@@ -74,18 +96,28 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 10px;
+    font-size: 12px;
     padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
+    align-items: center;
 }
 
 .signup2 {
     margin-left: auto;
+    height: 30px;
+    border-color: white;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 7px;
+    border-width: 2px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;
     margin-top: auto;
 }
