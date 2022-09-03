@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header, .first {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    margin-left: auto;
+    text-decoration: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin: 7px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+.first-content {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    max-width: 300px;
+    
+}
+button {
+    width: 100px;
+}
